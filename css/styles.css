@@ -324,7 +324,9 @@ width: 100%;
 height: 100%;
 background: #4D5AE5; 
 border-radius: 50%;
-display: block;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
  /* Footer  */
@@ -412,4 +414,10 @@ display: block;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+}
+
+/* ICONS */
+.team-soc-icon {
+  width: 16px;
+  height: 16px;
 }
