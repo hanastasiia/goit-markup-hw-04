@@ -360,12 +360,13 @@ color: #8E8F99;
 
 
 .customers-icon{
-width: 104px;
-height: 56px;
+width: 104;
+height: 56;
+fill: currentColor;
 }
 
-.customers-link:hover,
-.customers-link:hover {
+.customers-link:hover
+.customers-link:focus {
   border-color: #404bbf;
   color: #404bbf;
 }
