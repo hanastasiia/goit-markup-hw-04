@@ -97,7 +97,7 @@ a :focus {
   color: #404bbf;
 }
 
-.button {
+.hero-button {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -116,7 +116,9 @@ a :focus {
   margin-right: auto;
   gap: 10px;
   margin-top: 48px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+
 .section-one {
   padding: 120px 0;
 }
@@ -177,9 +179,16 @@ button:focus {
 }
 
 .hero-section {
-  background: url(people-office.jpg);
   background-color: #2e2f42;
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/backgrounds/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .title-hero {
@@ -256,6 +265,8 @@ button:focus {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .section-three-div {
   padding: 32px 16px;
@@ -361,6 +372,13 @@ button:focus {
 
 .pfl-row-list {
   width: calc((100% - 48px) / 3);
+}
+
+.pfl-row-list:hover,
+.pfl-row-list:hover {
+  border: 1px solid #F4F4FD;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .pfl-main-div {
