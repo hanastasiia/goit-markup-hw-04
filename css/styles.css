@@ -121,6 +121,8 @@ a :focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+/* Section One  */
+
 .section-one {
   padding: 120px 0;
 }
@@ -152,6 +154,16 @@ a :focus {
 
 .section-one-list-features {
   width: calc((100% - 72px) / 4);
+}
+
+.section-one-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 button:hover,
