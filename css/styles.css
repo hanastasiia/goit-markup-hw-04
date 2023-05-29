@@ -365,7 +365,7 @@ height: 56;
 fill: currentColor;
 }
 
-.customers-link:hover
+.customers-link:hover,
 .customers-link:focus {
   border-color: #404bbf;
   color: #404bbf;
