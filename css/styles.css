@@ -378,6 +378,7 @@ button:focus {
 .customers-link:hover,
 .customers-link:focus {
   border-color: #404bbf;
+  color: #404bbf;
 }
 
 .customers-link:hover,
@@ -386,7 +387,7 @@ button:focus {
 }
 
 .customers-icon {
-  fill: #8e8f99;
+  fill: currentColor;
 }
 
 
