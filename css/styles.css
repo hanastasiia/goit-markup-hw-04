@@ -375,15 +375,21 @@ button:focus {
   color: #8e8f99;
 }
 
-.customers-icon {
-  fill: currentColor;
-}
-
 .customers-link:hover,
 .customers-link:focus {
   border-color: #404bbf;
-  color: #404bbf;
 }
+
+.customers-link:hover,
+.customers-link:focus .customers-icon {
+  fill: #404bbf;
+}
+
+.customers-icon {
+  fill: #8e8f99;
+}
+
+
 
 /* Footer  */
 
@@ -507,12 +513,6 @@ button:focus {
   width: calc((100% - 48px) / 3);
 }
 
-.pfl-row-list:hover,
-.pfl-row-list:hover {
-  border: 1px solid #f4f4fd;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
 
 .pfl-row-link {
   display: block;
